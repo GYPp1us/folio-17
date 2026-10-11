@@ -1,0 +1,43 @@
+{
+  "archived_on": "2026-10-11",
+  "online_document": {
+    "title": "原子通知技术规范",
+    "source": "https://dev.vivo.com.cn/documentCenter/doc/896",
+    "api": "https://dev.vivo.com.cn/webapi/doc/info?id=896",
+    "versionCode": 2,
+    "source_updated_at": "2025-09-03T11:05:52+08:00",
+    "snapshot": "Existing local copies used during analysis"
+  },
+  "attachment": {
+    "original_filename": "superx_demo.rar",
+    "source": "User-provided download of attachment from document 896",
+    "pdf_original_filename": "原子通知接入文档-release1.5.pdf"
+  },
+  "files": [
+    {
+      "path": "superx_demo.rar",
+      "bytes": 2414603,
+      "sha256": "d018ba090de717129cdb4c072c06c0e2273a25aac4341634a71c55aed735fb5f"
+    },
+    {
+      "path": "vivo-doc-896.json",
+      "bytes": 160235,
+      "sha256": "60961f093915362eb3db8b0e97d7cc810fe68a970a06df1dbb400dacaed8a7a8"
+    },
+    {
+      "path": "vivo-doc-896.txt",
+      "bytes": 52861,
+      "sha256": "be172126b00e0075a7b022a60cf40a336a522588e56b908d8d90472e561ff785"
+    },
+    {
+      "path": "vivo-superx-release1.5.pdf",
+      "bytes": 1344085,
+      "sha256": "30020b23a0bf68b8fe1ded3c15cbf2a08d70efe2127fdb12bed70177179dbd66"
+    },
+    {
+      "path": "vivo-superx-release1.5.txt",
+      "bytes": 45774,
+      "sha256": "b21e73e1f223fda4a56e4386d94d15fe24dd0549827806ebbe1c2d5f740619b3"
+    }
+  ]
+}
