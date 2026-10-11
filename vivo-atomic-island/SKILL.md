@@ -1,6 +1,6 @@
 ---
 name: vivo-atomic-island
-description: 用于 vivo/OriginOS 原子岛、原子通知接入与本机验证，提供官方材料及 APK 内本机无线调试启用的思路。
+description: 用于 vivo/OriginOS 原子岛、原子通知接入，提供官方材料、已验证固件参考及 APK 内本机无线调试启用的思路。
 ---
 
 # vivo 原子岛接入
@@ -17,6 +17,10 @@ description: 用于 vivo/OriginOS 原子岛、原子通知接入与本机验证�
 本应用先进入小窗，再以独立任务打开全屏开发者选项（`FLAG_ACTIVITY_NEW_TASK`）。保持系统配对弹窗可见，从应用小窗输入；配对端口与连接端口不同。两步各自显示本次结果，配对码不持久保存。
 
 已验证：iQOO 15（`V2505A`），OriginOS 6，`PD2505B_A_16.0.30.14.W10`。新机型、新固件先复核接口与权限；OriginOS 7 尚未验证。
+
+## 没有 vivo 真机时
+
+先读[本机 framework 探测结论](references/framework-findings.md)，据已知接口和权限边界准备模板、适配层及模拟返回。将固件参数集中管理；取得目标设备证据后再启用写入。通用 Android 模拟器的结果只覆盖应用侧，真实原子岛渲染与授权仍需对应 ROM 验证。
 
 ## 材料
 

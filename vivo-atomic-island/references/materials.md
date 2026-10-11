@@ -5,7 +5,13 @@
 - [Kadb](https://github.com/flyfishxu/Kadb)：APK 内嵌 ADB 客户端的参考；版本按构建环境选择。
 - [LADB](https://github.com/tytydraco/LADB)：同一手机上保持设置页可见并完成配对的参考。
 
-若需固件适配细节，从用户自己的真机核实 framework、通知服务与 SystemUI；模板正确和场景获权需分别验证。
+## 已验证固件参考
+
+- [本机 framework 探测结论](framework-findings.md)：接口、权限、配置语义、通知生命周期，以及无 vivo 设备时可以先完成的工作。
+- [来源指纹与证据定位](framework-evidence.json)：固件信息、六个提取文件的 SHA-256、方法定位和验证范围。公开的是归纳结论及元数据，原始系统二进制留在本机。
+- [IntentsUI 官方规范](https://dev.vivo.com.cn/documentCenter/doc/1107)：跨应用操作卡片；与持续原子通知分别评估，当前固件探测范围见上述结论。
+
+这些结论限定于所标记的固件；移植时核实目标 ROM 的接口和权限。模板正确和场景获权需分别验证。
 
 ## 本地存档
 

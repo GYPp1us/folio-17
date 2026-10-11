@@ -1,0 +1,238 @@
+{
+  "recorded_on": "2026-10-11",
+  "device": {
+    "model": "V2505A",
+    "marketing_name": "iQOO 15",
+    "originos": "6",
+    "android_api": 36,
+    "build": "PD2505B_A_16.0.30.14.W10",
+    "rooted": false
+  },
+  "source": "Owner-authorized extraction and device experiments; original system binaries and private logs retained locally.",
+  "system_files": [
+    {
+      "name": "framework.jar",
+      "bytes": 51854135,
+      "sha256": "9f848eecbdf85c65872417e845972c03566e034c92874315b06f3580119b364a",
+      "dex_files_checked": [
+        "classes.dex",
+        "classes2.dex",
+        "classes3.dex",
+        "classes4.dex",
+        "classes5.dex",
+        "classes6.dex"
+      ],
+      "android_appfunctions_class_count": 61,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    },
+    {
+      "name": "vivo-framework.jar",
+      "bytes": 9091934,
+      "sha256": "7f777eba046a5a1b2e9f78fd3b3d9f6e975acc5c0d3d3567cb9d0db107d6e3b7",
+      "dex_files_checked": [
+        "classes.dex"
+      ],
+      "android_appfunctions_class_count": 0,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    },
+    {
+      "name": "services.jar",
+      "bytes": 34190578,
+      "sha256": "c58e51656f75c664b2d52723f421e62ffa333ba84f67f59a788ea4752ca8737f",
+      "dex_files_checked": [
+        "classes.dex",
+        "classes2.dex",
+        "classes3.dex"
+      ],
+      "android_appfunctions_class_count": 0,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    },
+    {
+      "name": "vivo-services.jar",
+      "bytes": 18118496,
+      "sha256": "e7e54c2c26f67f60376924523db3257e5c3559f8e622d1f4279a2f06f09c2f99",
+      "dex_files_checked": [
+        "classes.dex",
+        "classes2.dex"
+      ],
+      "android_appfunctions_class_count": 0,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    },
+    {
+      "name": "SystemUI.apk",
+      "bytes": 56628194,
+      "sha256": "81dcb43c8eda13f2340f572040ea1231b02d93bc50ddf88f7c7aeda5f74aeef8",
+      "dex_files_checked": [
+        "classes.dex",
+        "classes2.dex",
+        "classes3.dex",
+        "classes4.dex"
+      ],
+      "android_appfunctions_class_count": 0,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    },
+    {
+      "name": "assistant.apk",
+      "bytes": 70711713,
+      "sha256": "c1ef8b7f39c131c09d295f7927cafa7bbe9ac5041d59bdc171961acd8c95bc73",
+      "dex_files_checked": [
+        "classes.dex",
+        "classes2.dex",
+        "classes3.dex",
+        "classes4.dex",
+        "classes5.dex",
+        "classes6.dex"
+      ],
+      "android_appfunctions_class_count": 1,
+      "vivo_intentsui_class_count": 0,
+      "vivo_intentsui_descriptor_reference_count": 0
+    }
+  ],
+  "method_locators": [
+    {
+      "local_disassembly_name": "NotificationManager.smali",
+      "sha256": "3fdd4843b6ff34d600ff59344e318b06c3ad861468c008daf75b62432039842c",
+      "method": ".method public greylist getSceneStatus(Ljava/lang/String;Ljava/lang/String;)Z",
+      "line_start": 4764,
+      "line_end": 4777
+    },
+    {
+      "local_disassembly_name": "NotificationManager.smali",
+      "sha256": "3fdd4843b6ff34d600ff59344e318b06c3ad861468c008daf75b62432039842c",
+      "method": ".method public greylist getSceneStatus(Ljava/lang/String;Ljava/lang/String;I)Z",
+      "line_start": 4779,
+      "line_end": 4815
+    },
+    {
+      "local_disassembly_name": "NotificationManager.smali",
+      "sha256": "3fdd4843b6ff34d600ff59344e318b06c3ad861468c008daf75b62432039842c",
+      "method": ".method public greylist setSuperXInfosSceneList(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
+      "line_start": 7153,
+      "line_end": 7206
+    },
+    {
+      "local_disassembly_name": "INotificationManagerStub.smali",
+      "sha256": "35dca0e2a3040efbd5e070ff334734ca6dfdf44fa7b05d4b896fa99bfe588c6b",
+      "method": ".method public whitelist onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z",
+      "line_start": 2376,
+      "line_end": 10032
+    },
+    {
+      "local_disassembly_name": "NotificationManagerService.smali",
+      "sha256": "3d40dbf959ad54c2971fbd27281e2e457cedb511753b7919fc252accdbc74bbb",
+      "method": ".method protected isCallerSystemOrSystemUi()Z",
+      "line_start": 27222,
+      "line_end": 27258
+    },
+    {
+      "local_disassembly_name": "VivoNotificationImpl.smali",
+      "sha256": "501a642c52271247278d7391c05acd0c6bfa326a7c8f9da83266fbf49c7bb235",
+      "method": ".method public getSceneStatus(Ljava/lang/String;Ljava/lang/String;I)Z",
+      "line_start": 12813,
+      "line_end": 12870
+    },
+    {
+      "local_disassembly_name": "VivoNotificationImpl.smali",
+      "sha256": "501a642c52271247278d7391c05acd0c6bfa326a7c8f9da83266fbf49c7bb235",
+      "method": ".method public setSuperXInfosSceneList(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
+      "line_start": 19790,
+      "line_end": 19831
+    },
+    {
+      "local_disassembly_name": "VivoSuperXManager.smali",
+      "sha256": "97aa19b5f0e626cd5846b9dee78f291c8f7c783d762821d1e0aa72edf5a29418",
+      "method": ".method private enforceHasIslandPermission(Ljava/lang/String;I)Z",
+      "line_start": 1537,
+      "line_end": 1615
+    },
+    {
+      "local_disassembly_name": "VivoSuperXManager.smali",
+      "sha256": "97aa19b5f0e626cd5846b9dee78f291c8f7c783d762821d1e0aa72edf5a29418",
+      "method": ".method private getAllowedAppInfo(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Landroid/util/ArrayMap;)Landroid/util/ArrayMap;",
+      "line_start": 1647,
+      "line_end": 1807
+    },
+    {
+      "local_disassembly_name": "VivoSuperXManager.smali",
+      "sha256": "97aa19b5f0e626cd5846b9dee78f291c8f7c783d762821d1e0aa72edf5a29418",
+      "method": ".method public getSceneStatus(Ljava/lang/String;Ljava/lang/String;I)Z",
+      "line_start": 6276,
+      "line_end": 6344
+    },
+    {
+      "local_disassembly_name": "VivoSuperXManager.smali",
+      "sha256": "97aa19b5f0e626cd5846b9dee78f291c8f7c783d762821d1e0aa72edf5a29418",
+      "method": ".method public isValidSuperXNotification(Lcom/android/server/notification/NotificationRecord;Z)I",
+      "line_start": 6938,
+      "line_end": 9667
+    },
+    {
+      "local_disassembly_name": "VivoSuperXManager.smali",
+      "sha256": "97aa19b5f0e626cd5846b9dee78f291c8f7c783d762821d1e0aa72edf5a29418",
+      "method": ".method public setSuperXInfosSceneList(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
+      "line_start": 9795,
+      "line_end": 10177
+    }
+  ],
+  "locator_note": "Line numbers and hashes refer to local disassembly snapshots, which are not distributed in this repository.",
+  "binder_contract": {
+    "service": "notification",
+    "setSuperXInfosSceneList": {
+      "transaction": 209,
+      "args": [
+        "List<String> sceneList",
+        "List<String> switchList",
+        "List<String> pkgInfosList",
+        "List<String> pkgSwitchList"
+      ]
+    },
+    "getSceneStatus": {
+      "transaction": 210,
+      "args": [
+        "String pkgName",
+        "String scene",
+        "int switch_type"
+      ],
+      "switch_types": {
+        "SUPERX": 0,
+        "ASSISTANT": 1,
+        "ALL": 2
+      },
+      "integer_is_user_id": false
+    }
+  },
+  "runtime_evidence": {
+    "shell_uid": 2000,
+    "shell_has_STATUS_BAR_SERVICE": true,
+    "own_scene_enable_disable_readback_and_render_verified": true,
+    "unrelated_scene_mappings_preserved": true,
+    "layouts": {
+      "main_cards": {
+        "count": 5,
+        "accepted": 5
+      },
+      "right_island": {
+        "count": 6,
+        "accepted": 6
+      },
+      "auxiliary": {
+        "count": 7,
+        "accepted": 7
+      }
+    },
+    "focus_service_background_timer_updated": true,
+    "wireless_pair_and_register_readback": "User confirmed; PC ADB subsequently showed no device"
+  },
+  "limits": [
+    "Only the identified firmware has been verified.",
+    "IntentsUI absence search covers the six files and matching DEX descriptor prefixes, not the entire ROM.",
+    "No OriginOS 7, reboot persistence, or cloud override validation.",
+    "Framework contracts do not substitute for actual system authorization and rendering tests."
+  ],
+  "reference": "framework-findings.md"
+}
